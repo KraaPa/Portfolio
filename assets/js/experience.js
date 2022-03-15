@@ -5,13 +5,15 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+
   {
     title: "Stage Technicien de Support",
     cardImage: "assets/images/experience-page/Atlantic.png",
     place: "Meyzieu - ACTA",
     time: "(2021)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    desp: "<li>Maintenance des équipements informatiques (hardware et software)</li> <li>configuration des postes de chaque salarié en fonction des besoins</li> <li>Création d'une application d'envoi de mails en C# avec l'IDE Visual Studio</li>",
   },
+
   {
     title: "Stage Web Designer + Web Master",
     cardImage: "assets/images/experience-page/TaiShiFood.jpg",
@@ -24,7 +26,7 @@ const exp = [
     cardImage: "",
     place: "",
     time: "",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    desp:"",
   },
 ];
 
@@ -32,24 +34,28 @@ const showCards2 = () => {
   let output = "";
   exp.forEach(
     ({ title, cardImage, place, time, desp }) =>
-      (output += `        
+      (output += `  
+  
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
       <div class="card card1">
         <img src="${cardImage}" class="featured-image"/>
-        <article class="card-body">
-          <header>
-            <div class="title">
-              <h3>${title}</h3>
-            </div>
-            <p class="meta">
-              <span class="pre-heading">${place}</span><br>
-              <span class="author">${time}</span>
-            </p>
-            <ol>
-              ${desp}
-            </ol>
-          </header>
-        </article>
+            <article class="card-body">
+              <header>
+  
+                <div class="title">
+                  <h3>${title}</h3>
+          
+                </div>
+                <p class="meta">
+                  <span class="pre-heading">${place}</span><br>
+                  <span class="author">${time}</span>
+                <ol>
+                  ${desp}
+                </ol>
+              </header>
+              
+            </article>
+        </a>
       </div>
     </div>
       `)

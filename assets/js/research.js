@@ -7,9 +7,9 @@ const research = [
         title : "La musculation",
         authors : "",
         conferences : "Fan de sport depuis mon enfance, j'ai d'abord pratiqué le basketball et le volleyball pour ensuite me tourner vers la musculation. Cela fait maintenant 4 ans que je pratique cette activité, déterminé, je suis prêt à repousser mes limites pour progresser.",
-        researchYr : 2020,
+        researchYr : "2020-2021",
         citebox : "popup1",
-        image : "",
+        image : "dos.jpg",
         citation: {
             vancouver: ""
         },
@@ -58,21 +58,12 @@ const fillData = () => {
                             <img src="${image}" class="imgRes">
                         </span>
                     </div>
-                    <a href="#0" class="paperTitle"> ${title} </a> 
+                    <a href="https://ecoledutigre.fr" class="paperTitle"> ${title} </a> 
                     <div> ${authors} </div> <div class="rConferences"> ${conferences} 
                         <div class="researchY">${researchYr}</div>
                     </div>
         
-                    <!--CITE BUTTON-->
-                    <div class="d-flex" style="margin-right:5%;">
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
-                            ABSTRACT
-                        </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                            CITE
-                        </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </div>
+
                     <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
                             ${abstract}    
