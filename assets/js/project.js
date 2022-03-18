@@ -6,6 +6,38 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
+    title: "Application d'envoi de mails automatisé",
+    cardImage: "ITSupport.png",
+    description: "",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "Site web Tai Shi Food",
+    cardImage: "taishifood.png",
+    description: "VPS (Apache, PHP, MySQL Server), DNS  (CloudFlare, NameServer), WordPress (BDD)",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "TP Authentification et droits",
+    cardImage: "tp4.png",
+    description: "",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
+    title: "TP GLPI",
+    cardImage: "glpi.png",
+    description: "",
+    tagimg: "",
+    Previewlink: "",
+    Githublink: "",
+  },
+  {
     title: "",
     cardImage: "",
     description: "",
