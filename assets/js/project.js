@@ -26,7 +26,7 @@ const projects = [
     cardImage: "tp4.png",
     description: "",
     tagimg: "",
-    Previewlink: "",
+    Previewlink: "TP4_Securite-Authentification.pdf",
     Githublink: "",
   },
   {
@@ -38,11 +38,11 @@ const projects = [
     Githublink: "",
   },
   {
-    title: "TP Réseau Adressage IP ",
-    cardImage: "TP3_ReseauAdressageIP.pdf",
+    title: "TP Packet Tracer",
+    cardImage: "",
     description: "",
     tagimg: "",
-    Previewlink: "",
+    Previewlink: "TP3_ReseauAdressageIP.pdf",
     Githublink: "",
   },
   {

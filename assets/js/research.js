@@ -7,7 +7,7 @@ const research = [
         title : "La musculation",
         authors : "",
         conferences : "Fan de sport depuis mon enfance, j'ai d'abord pratiqué le basketball et le volleyball pour ensuite me tourner vers la musculation. Cela fait maintenant 4 ans que je pratique cette activité, déterminé, je suis prêt à repousser mes limites pour progresser.",
-        researchYr : "2020-2021",
+        researchYr : "2018",
         citebox : "popup1",
         image : "dos.jpg",
         citation: {
@@ -18,9 +18,9 @@ const research = [
     },
 
     {
-        title : "",
+        title : "Les jeux vidéos",
         authors : "",
-        conferences : "",
+        conferences : "Joueur depuis mon enfance, les jeux vidéos sont ",
         researchYr : "",
         citebox : "",
         image : "",
@@ -31,10 +31,10 @@ const research = [
     },
 
     {
-        title : "",
+        title : "Crytomonnaie",
         authors : "",
         conferences : "",
-        researchYr : 2020,
+        researchYr : "",
         citebox : "",
         image : "",
         citation: {
